@@ -72,6 +72,6 @@
     "@tanstack/react-query": "^4.28.0"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "@hk9099:registry": "https://npm.pkg.github.com"
   }
 }
