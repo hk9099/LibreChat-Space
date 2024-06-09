@@ -28,15 +28,8 @@
     "b:clean": "bun run rimraf dist",
     "b:build": "bun run b:clean && bun run rollup -c --silent --bundleConfigAsCjs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/danny-avila/LibreChat.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/danny-avila/LibreChat/issues"
-  },
   "homepage": "https://librechat.ai",
   "dependencies": {
     "@types/js-yaml": "^4.0.9",
