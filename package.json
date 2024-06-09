@@ -1,7 +1,7 @@
 {
   "name": "librechat",
   "version": "0.7.2",
-  "description": "<p align=\"center\">   <a href=\"https://librechat.ai\">     <img src=\"client/public/assets/logo.svg\" height=\"256\">   </a>   <h1 align=\"center\">     <a href=\"https://librechat.ai\">LibreChat</a>   </h1> </p>",
+  "description": "",
   "workspaces": [
     "api",
     "client",
@@ -60,15 +60,8 @@
     "b:balance": "bun config/add-balance.js",
     "b:list-balances": "bun config/list-balances.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/danny-avila/LibreChat.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/danny-avila/LibreChat/issues"
-  },
   "homepage": "https://librechat.ai/",
   "devDependencies": {
     "@playwright/test": "^1.38.1",
